@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#wrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+#wrap ul li {
+  width: 250px;
+}
