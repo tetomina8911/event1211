@@ -3,8 +3,23 @@
 #wrap ul {
   display: flex;
   flex-wrap: wrap;
-  width: 500px;
+  width: 100%;
+  max-width: 480px;
 }
 #wrap ul li {
-  width: 250px;
+  position: relative;
+  width: 50%;
+}
+
+#wrap ul li span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  background: yellow;
 }
